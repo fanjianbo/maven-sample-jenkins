@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="fan-jenkins-sample:war exploded">
+    <output-path>$PROJECT_DIR$/target/fan-jetty-test</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="fan-jenkins-sample" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/fan-jetty-test/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="fan-jenkins-sample/web/Web" />
+    </root>
+  </artifact>
+</component>
