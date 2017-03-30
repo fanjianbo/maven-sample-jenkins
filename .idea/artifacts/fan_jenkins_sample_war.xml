@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="fan-jenkins-sample:war">
-    <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="fan-jetty-test.war">
-      <element id="artifact" artifact-name="fan-jenkins-sample:war exploded" />
-    </root>
-  </artifact>
-</component>
